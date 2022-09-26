@@ -1,0 +1,18 @@
+{
+  "name": "protractor-min-code",
+  "version": "1.0.0",
+  "description": "A sample working protractor project with minimum code required",
+  "main": "index.js",
+  "scripts": {
+    "before-test": "webdriver-manager update",
+    "test": "tsc && protractor temp/config.js"
+  },
+  "author": "test",
+  "license": "test",
+  "dependencies": {
+    "@types/jasmine": "2.5.45",
+    "@types/node": "^10.12.18",
+    "protractor": "^5.4.1",
+    "typescript": "^3.2.1"
+  }
+}
